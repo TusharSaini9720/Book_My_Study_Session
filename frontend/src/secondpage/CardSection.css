@@ -1,0 +1,125 @@
+/* .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    transition: width 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .card {
+    display: flex;
+    background-color: #f0f8f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    width: 100%;
+  } */
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 20px;
+    
+    transition: width 0.2s ease-in-out; /* Add transition for smooth width adjustment */
+  }
+  
+  .card {
+    display: flex;
+    background-color: #f0f8f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    overflow: hidden;
+    transition: transform 0.3s ease, width 0.5s ease-in-out; /* Include transition on width */
+    width: 100%;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-image {
+    width: 220px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card-content {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topic-name {
+    font-size: 1.5em;
+    color: rgb(107, 196, 107);
+    margin: 0;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: rgb(107, 196, 107);
+    font-weight: bold;
+  }
+  
+  .class-info {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    color: rgb(107, 196, 107);
+    margin: 5px 0;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: rgb(107, 196, 107);
+    margin: 10px 0;
+    flex-grow: 1;
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-icon {
+    color: #FFD700;
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
+  
+  .tutor-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(107, 196, 107);
+    margin: 10px 0;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    color: rgb(107, 196, 107);
+  }
+  
+  .icons span {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  

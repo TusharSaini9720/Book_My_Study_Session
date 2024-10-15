@@ -1,0 +1,153 @@
+
+.footer {
+    color: white;
+    background-color: #0d6efd;
+    padding: 40px 40px;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    padding-bottom: 0;
+  }
+  
+  .contact {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 7fr;
+    column-gap: 10px;
+  }
+  .contactform {
+    width: 95%;
+  }
+  .contactform input[type="text"],
+  .contactform input[type="email"],
+  textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 7px 15px;
+    width: 100%;
+    background-color: #e8eeef;
+  
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 20px;
+  }
+  .contactform textarea {
+    height: 90px;
+  }
+  
+  .contactform fieldset {
+    border: none;
+  }
+  .contactform label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 550;
+  }
+  
+  .contactform label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  .contactform button {
+    padding: 5px 39px 5px 39px;
+    color: #fff;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 2px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer {
+      display: block;
+    }
+    .contact {
+      display: block;
+    }
+    .loaderforlist {
+      height: 400px;
+    }
+  }
+  
+  .main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height:100vh;
+    margin: 15px auto;
+    overflow: hidden;
+    /* border: 1px solid black; */
+  }
+  
+  /* .main2 {
+    margin: 30px;
+    border: 1px solid black;
+    width: calc(100% - 60px); 
+    height: calc(100% - 60px); 
+    background-color:white;
+    display:grid;
+    grid-template-columns: 0.15fr 1fr;
+    column-gap: 10px;
+  } */
+  .main2 {
+    margin: 30px;
+    /* padding: 20px;  */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Add border with slight transparency */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    background-color: white;
+    width: calc(100% - 60px); 
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    column-gap: 10px;
+    overflow: hidden;
+  }
+  .control {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  .control .part {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    transition: background-color 0.3s ease;
+  }
+  
+  .control .part:hover {
+    background-color: lightgray;
+  }
+  @media (max-width: 768px) {
+    .main2{
+      margin: 5px;
+      display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 0fr 1fr;
+    width:100%; 
+    height:100vh;
+    }
+    .control {
+      flex-direction: row; /* Change to horizontal layout */
+      justify-content: space-between; /* Add space between links */
+    }
+  
+    .part {
+      border-bottom: none; /* Remove bottom border */
+    }
+  
+    .part:not(:last-child) {
+      margin-right: 10px; /* Add margin between links */
+    }
+  }

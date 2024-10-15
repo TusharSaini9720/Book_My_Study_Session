@@ -1,0 +1,85 @@
+.detail-section {
+  display: flex;
+  height: 57vh;
+  padding: 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+.left-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left: 4rem;
+}
+
+.right-section {
+  width: 40%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.course-name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+  text-align: left;
+}
+
+.languages-container {
+  position: relative;
+}
+
+.visible-languages {
+  font-size: 1rem;
+  color: #666;
+  margin-block-start: 0px;
+}
+
+.hidden-languages {
+  font-size: 0.9rem;
+  color: #999;
+  display: none;
+  position: absolute;
+  top: 2px;
+}
+
+.languages-container:hover .hidden-languages {
+  display: block;
+}
+
+.book-now-button {
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-now-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.enrolled-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.video-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: auto;
+}

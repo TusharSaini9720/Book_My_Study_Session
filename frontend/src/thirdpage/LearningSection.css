@@ -1,0 +1,73 @@
+.learning-section {
+    padding: 70px;
+    /* background-color: #f8f9fa; */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .learn-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 20px;
+  }
+  
+  .learn-row {
+    display: contents; /* Allows grid columns to flow across rows */
+  }
+  
+  .learn-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 10px 0;
+  }
+  
+  .learn-icon {
+    color: #4CAF50; /* Green color */
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  .learning-section {
+    /* height: 100vh;  */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column;
+    /* background-color: #f8f9fa; */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .learn-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 20px;
+    width: 80%; /* Controls the width of the grid */
+  }
+  
+  .learn-row {
+    display: contents; /* Allows grid columns to flow across rows */
+  }
+  
+  .learn-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 10px 0;
+  }
+  
+  .learn-icon {
+    color: #4CAF50; /* Green color */
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  
