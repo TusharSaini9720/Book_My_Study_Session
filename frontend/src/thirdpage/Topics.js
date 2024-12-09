@@ -4,20 +4,6 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 function Topics({Session}) {
 
-    const topics = [
-        {
-          name: 'Organic Chemistry',
-          subtopics: ['Hydrocarbons', 'Alcohols and Phenols', 'Ethers', 'Aldehydes and Ketones', 'Carboxylic Acids']
-        },
-        {
-          name: 'Thermodynamics',
-          subtopics: ['Laws of Thermodynamics', 'Enthalpy', 'Entropy', 'Gibbs Free Energy']
-        },
-        {
-          name: 'Electrostatics',
-          subtopics: ['Electric Field', 'Gauss Law', 'Electric Potential', 'Capacitance']
-        }
-      ];
   const [expandedTopicIndex, setExpandedTopicIndex] = useState(null);
 
   const toggleTopic = (index) => {
