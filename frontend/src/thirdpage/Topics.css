@@ -1,0 +1,83 @@
+/* TopicsCovered.css */
+
+.topics-covered-container {
+    background-color: #fff; /* White background for contrast */
+    border-radius: 20px;
+    padding: 20px;
+    /* margin: 20px; */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  .topics-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* color: rgb(240, 56, 56);  */
+    /* Theme color for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .topics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .topic-item {
+    /* background-color: #f9f9f9; */
+    background-color: #b7ffb9;;
+     /* Light background for each topic item */
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  }
+  
+  .topic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .topic-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333; /* Dark text color */
+  }
+  
+  .chevron-icon {
+    font-size: 1.2rem;
+    color: rgb(54, 223, 77); /* Theme color for icons */
+  }
+  
+  .subtopics-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .subtopic-item {
+    font-size: 1rem;
+    color: #555; /* Medium dark text color */
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .topics-list {
+      gap: 10px;
+    }
+  
+    .topic-name {
+      font-size: 1.1rem;
+    }
+  
+    .chevron-icon {
+      font-size: 1rem;
+    }
+  
+    .subtopic-item {
+      font-size: 0.9rem;
+    }
+  }
+  

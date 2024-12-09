@@ -1,0 +1,72 @@
+.card1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    width: 22rem; /* Adjust the width of the card */
+    position: relative;
+  }
+  
+  .card-img-top {
+    /* width: 100%; */
+    height: auto;
+    display: block;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 2px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay to make text readable */
+    color: white;
+  }
+  
+  .subject-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .star-rating {
+    display: flex;
+    align-items: center;
+  }
+  /* new rating */
+
+  
+.session-price-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.price-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-info {
+  display: flex;
+  align-items: center;
+}
+
+.rating-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f43838; /* Theme color */
+  margin-right: 5px;
+}
+  
+.ratingprice{
+justify-content: space-between;
+}

@@ -1,0 +1,80 @@
+/* CSS Styling (ReviewCard.css) */
+
+.review-card {
+    display: flex;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* .review-image {
+    flex: 0 0 100px;
+    margin-right: 20px;
+  } */
+  
+  .review-thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .review-course-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .review-date {
+    font-size: 0.9rem;
+    color: #999;
+    margin: 0;
+  }
+  
+  .review-rating-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .review-rating-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: crimson;
+    margin-left: 10px;
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+  }
+.stars1 {
+    display: flex;
+    gap: 5px;
+  }

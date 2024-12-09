@@ -1,0 +1,636 @@
+[
+    {
+      "name": "Mathematics Mastery",
+      "class": 8,
+      "subject": "Mathematics",
+      "language": "English",
+      "topics": [
+        {
+          "topicName": "Algebra",
+          "subTopics": ["Linear Equations", "Quadratic Equations", "Polynomials"]
+        },
+        {
+          "topicName": "Geometry",
+          "subTopics": ["Triangles", "Circles", "Coordinate Geometry"]
+        }
+      ],
+      "duration": 30,
+      "price": 499,
+      "rating": 4.7,
+      "bookings": 120,
+      "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+      "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "features": ["Live 1:1 Tutoring", "Notes", "Practice Tests", "Flexible Timings"],
+      "description": [
+        {
+          "type": "heading",
+          "content": [
+            {
+              "text": "Unlock Your Potential",
+              "format": "bold"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "This session is designed to help you master mathematical concepts with ease. Our experienced tutors will guide you through each topic, ensuring you have a thorough understanding.",
+              "format": "plain"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "text": "Interactive sessions",
+              "format": "plain"
+            },
+            {
+              "text": "Comprehensive notes",
+              "format": "plain"
+            },
+            {
+              "text": "Personalized learning",
+              "format": "plain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Science Exploration",
+      "class": 10,
+      "subject": "Science",
+      "language": "Hindi",
+      "topics": [
+        {
+          "topicName": "Physics",
+          "subTopics": ["Motion", "Forces", "Energy"]
+        },
+        {
+          "topicName": "Chemistry",
+          "subTopics": ["Acids and Bases", "Periodic Table", "Chemical Reactions"]
+        },
+        {
+          "topicName": "Biology",
+          "subTopics": ["Cell Structure", "Human Physiology", "Genetics"]
+        }
+      ],
+      "duration": 45,
+      "price": 699,
+      "rating": 4.8,
+      "bookings": 200,
+      "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+      "previewVideo":"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "features": ["Live 1:1 Tutoring", "Practice Tests", "Doubt-Chat Support", "Session Recordings"],
+      "description": [
+        {
+          "type": "heading",
+          "content": [
+            {
+              "text": "Dive Deep into Science",
+              "format": "bold"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Explore the wonders of science with our comprehensive sessions covering Physics, Chemistry, and Biology. Our expert tutors will help you understand complex concepts with ease.",
+              "format": "plain"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "text": "Engaging video lessons",
+              "format": "plain"
+            },
+            {
+              "text": "Real-world examples",
+              "format": "plain"
+            },
+            {
+              "text": "Hands-on experiments",
+              "format": "plain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "English Literature & Language",
+      "class": 7,
+      "subject": "English",
+      "language": "English",
+      "topics": [
+        {
+          "topicName": "Grammar",
+          "subTopics": ["Parts of Speech", "Tenses", "Punctuation"]
+        },
+        {
+          "topicName": "Literature",
+          "subTopics": ["Poetry", "Prose", "Drama"]
+        }
+      ],
+      "duration": 25,
+      "price": 399,
+      "rating": 4.5,
+      "bookings": 80,
+      "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+      "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "features": ["Notes", "Doubt-Chat Support", "Flexible Timings"],
+      "description": [
+        {
+          "type": "heading",
+          "content": [
+            {
+              "text": "Master English Language and Literature",
+              "format": "bold"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Enhance your English skills with our comprehensive sessions that cover grammar and literature. Our expert tutors will help you understand the nuances of the English language.",
+              "format": "plain"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "text": "Grammar exercises",
+              "format": "plain"
+            },
+            {
+              "text": "Literature analysis",
+              "format": "plain"
+            },
+            {
+              "text": "Writing practice",
+              "format": "plain"
+            }
+          ]
+        }
+      ]
+    },
+      {
+        "name": "Science Exploration",
+        "class": 7,
+        "subject": "Science",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Physics",
+            "subTopics": ["Motion", "Forces", "Energy"]
+          },
+          {
+            "topicName": "Chemistry",
+            "subTopics": ["Atoms", "Periodic Table", "Chemical Reactions"]
+          }
+        ],
+        "duration": 40,
+        "price": 599,
+        "rating": 4.8,
+        "bookings": 150,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Doubt-Chat Support", "Flexible Timings"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Explore the World of Science",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Dive deep into the fascinating world of science with our comprehensive sessions.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Engaging experiments",
+                "format": "plain"
+              },
+              {
+                "text": "Detailed explanations",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "English Literature",
+        "class": 10,
+        "subject": "English",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Poetry",
+            "subTopics": ["Sonnet", "Ballad", "Free Verse"]
+          },
+          {
+            "topicName": "Prose",
+            "subTopics": ["Short Stories", "Novels", "Essays"]
+          }
+        ],
+        "duration": 45,
+        "price": 699,
+        "rating": 4.6,
+        "bookings": 90,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Notes", "Session Recordings", "Flexible Timings"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Master English Literature",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Understand the nuances of English literature through detailed sessions.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Interactive discussions",
+                "format": "plain"
+              },
+              {
+                "text": "In-depth analyses",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "History Insights",
+        "class": 9,
+        "subject": "History",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Ancient History",
+            "subTopics": ["Mesopotamia", "Indus Valley", "Ancient Egypt"]
+          },
+          {
+            "topicName": "Modern History",
+            "subTopics": ["World Wars", "Cold War", "Contemporary Events"]
+          }
+        ],
+        "duration": 50,
+        "price": 649,
+        "rating": 4.9,
+        "bookings": 135,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Doubt-Chat Support", "Session Recordings"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Delve into History",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Gain insights into historical events and their impact on the modern world.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Visual aids and maps",
+                "format": "plain"
+              },
+              {
+                "text": "Chronological understanding",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Computer Science Fundamentals",
+        "class": 11,
+        "subject": "Computer Science",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Programming",
+            "subTopics": ["Python", "Java", "C++"]
+          },
+          {
+            "topicName": "Data Structures",
+            "subTopics": ["Arrays", "Linked Lists", "Trees"]
+          }
+        ],
+        "duration": 60,
+        "price": 799,
+        "rating": 4.7,
+        "bookings": 180,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Notes", "Practice Tests"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Learn the Basics of Computer Science",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Master programming and data structures with hands-on examples and exercises.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Practical coding sessions",
+                "format": "plain"
+              },
+              {
+                "text": "Real-world applications",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geography Adventure",
+        "class": 6,
+        "subject": "Geography",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Physical Geography",
+            "subTopics": ["Mountains", "Rivers", "Deserts"]
+          },
+          {
+            "topicName": "Human Geography",
+            "subTopics": ["Population", "Urbanization", "Cultures"]
+          }
+        ],
+        "duration": 35,
+        "price": 459,
+        "rating": 4.5,
+        "bookings": 75,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Flexible Timings", "Notes", "Practice Tests"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Explore the Planet",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Discover the wonders of our planet through engaging sessions and interactive activities.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Maps and globes",
+                "format": "plain"
+              },
+              {
+                "text": "Cultural explorations",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Art and Creativity",
+        "class": 5,
+        "subject": "Art",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Drawing",
+            "subTopics": ["Sketching", "Shading", "Cartooning"]
+          },
+          {
+            "topicName": "Painting",
+            "subTopics": ["Watercolors", "Acrylics", "Oil Paints"]
+          }
+        ],
+        "duration": 30,
+        "price": 349,
+        "rating": 4.9,
+        "bookings": 100,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Materials List", "Session Recordings"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Unleash Your Creativity",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Enhance your artistic skills with our fun and engaging art sessions.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Creative exercises",
+                "format": "plain"
+              },
+              {
+                "text": "Step-by-step tutorials",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "French Language Learning",
+        "class": 8,
+        "subject": "Languages",
+        "language": "French",
+        "topics": [
+          {
+            "topicName": "Basic Vocabulary",
+            "subTopics": ["Greetings", "Numbers", "Colors"]
+          },
+          {
+            "topicName": "Grammar",
+            "subTopics": ["Verbs", "Nouns", "Adjectives"]
+          }
+        ],
+        "duration": 55,
+        "price": 749,
+        "rating": 4.8,
+        "bookings": 85,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Notes", "Practice Tests"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Learn French with Ease",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Improve your French language skills with interactive lessons and exercises.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Pronunciation practice",
+                "format": "plain"
+              },
+              {
+                "text": "Cultural insights",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Creative Writing Workshop",
+        "class": 12,
+        "subject": "Creative Writing",
+        "language": "English",
+        "topics": [
+          {
+            "topicName": "Short Stories",
+            "subTopics": ["Plot Development", "Character Building", "Dialogue Writing"]
+          },
+          {
+            "topicName": "Poetry",
+            "subTopics": ["Free Verse", "Haiku", "Sonnet"]
+          }
+        ],
+        "duration": 70,
+        "price": 899,
+        "rating": 4.6,
+        "bookings": 95,
+        "image": "https://img.freepik.com/free-photo/tulips-laptop-cactus-stationeries-with-smartphone-red-background_23-2147923409.jpg?w=900&t=st=1724323640~exp=1724324240~hmac=a4f40176e1aea1cebca4688f0cb0ba7c362fc1d2e80653123f31a8116933f82d",
+        "previewVideo": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "features": ["Live 1:1 Tutoring", "Writing Prompts", "Feedback Sessions"],
+        "description": [
+          {
+            "type": "heading",
+            "content": [
+              {
+                "text": "Craft Your Story",
+                "format": "bold"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "text": "Explore the art of creative writing and develop your unique style.",
+                "format": "plain"
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "text": "Writing exercises",
+                "format": "plain"
+              },
+              {
+                "text": "Peer review sessions",
+                "format": "plain"
+              }
+            ]
+          }
+        ]
+      }
+    
+  ]
+  

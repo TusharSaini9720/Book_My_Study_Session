@@ -1,0 +1,74 @@
+.App1{
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  /* background-color: #4CAF50; */
+  padding-left: 50px;
+}
+
+.toolbar-button {
+  background-color: rgb(51, 221, 51);
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.toolbar-button:hover {
+  background-color: rgb(52, 219, 52);;
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+}
+/* 
+.filter-section {
+  width: 25%;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section.visible {
+  width: 25%;
+} */
+/* 
+.card-section {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  transition: width 0.3s ease;
+} */
+
+/* .content {
+  display: flex;
+  transition: width 0.5s ease-in; /* Transition for smooth width change 
+}
+
+.with-filters .card-section {
+  width: 75%; /* Width when filters are visible 
+  display: flex;
+    justify-content: right;
+}
+
+.without-filters .card-section {
+  width: 100%; /* Width when filters are hidden 
+  display: flex;
+    justify-content: right;
+} */
+.card-section {
+  width: 100%;
+  padding: 30px;
+}

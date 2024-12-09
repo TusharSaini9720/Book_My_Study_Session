@@ -1,0 +1,147 @@
+.detail-section {
+  display: flex;
+  height: 70vh;
+  padding: 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+.left-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left: 4rem;
+}
+
+.right-section {
+  width: 40%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.course-name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+  text-align: left;
+}
+
+.languages-container {
+  position: relative;
+}
+
+.visible-languages {
+  font-size: 1rem;
+  color: #666;
+  margin-block-start: 0px;
+}
+
+.hidden-languages {
+  font-size: 0.9rem;
+  color: #999;
+  display: none;
+  position: absolute;
+  top: 2px;
+}
+
+.languages-container:hover .hidden-languages {
+  display: block;
+}
+
+.book-now-button {
+  background-color: #007BFF; /* Blue color */
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-now-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.enrolled-info {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.video-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: auto;
+}
+
+.tutor-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tutor-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.tutor-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutor-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  margin:0px;
+}
+
+.tutor-bio {
+  font-size: 0.9rem;
+  color: #555;
+  margin:0px;
+}
+
+/* topics */
+/* .topic-tags-session-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.tag-session-card {
+  background-color: #08c70e;
+  border-radius: 15px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  color: #fff;
+} */
+
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color:  rgb(105 255 56);/* Theme color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font-size: 0.9rem;
+}
+

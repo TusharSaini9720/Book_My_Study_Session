@@ -1,0 +1,88 @@
+.top-rated-tutors1 {
+    padding: 40px;
+    background-color: #e5f5e0; /* Light green background */
+    text-align: center;
+  }
+  
+  .top-rated-tutors11 h2 {
+    font-size: 36px;
+    color: #2e7d32;
+    margin-bottom: 30px;
+  }
+  
+  .tutor-cards1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tutor-card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .tutor-card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .tutor-image1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tutor-info11 {
+    padding: 20px;
+  }
+  
+  .tutor-name1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32;
+    margin: 10px 0;
+  }
+  
+  .tutor-subject1 {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .tutor-stats1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item1 {
+    display: flex;
+    align-items: center;
+    color: #2e7d32;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item1 svg {
+    margin-right: 5px;
+  }
+  
+  .star-rating1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .tutor-description1 {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  

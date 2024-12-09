@@ -1,0 +1,51 @@
+.small-card {
+    /* position: relative; */
+    width: 80%;
+    height: 19vh;
+    /* background-color: #fff; */
+    /* background-color:  rgb(109, 247, 109); */
+    background-color:rgb(105 255 56);
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    z-index: 1; /* To make sure it's above both sections */
+    margin: 0 auto; /* Center the card */
+    top: -5%; /* Position it so that it overlaps between the sections */
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-around;
+    width: 110%;
+    padding: 10px;
+    font-size: 1.7rem;
+    flex-direction: row;
+  }
+  
+  .rating, .duration, .class {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .rating span, .duration span, .class span {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: bolder;
+  }
+  
+  .rating {
+    color: #FFD43B;
+  }
+  
+  .duration {
+    color: #007BFF; /* Blue for the clock icon */
+  }
+  
+  .class {
+    color:#FFD43B; /* Green for difficulty level */
+  }
+  

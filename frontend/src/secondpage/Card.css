@@ -1,0 +1,136 @@
+.card-section1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+  /* Light green background */
+  padding: 20px;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.card1 {
+  display: flex;
+  margin-bottom: 0px;
+  /* padding: 15px; */
+  background-color: #E8F5E9; ;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 97%;
+}
+
+.card1:hover {
+  transform: scale(1.02);
+}
+
+.card-image1 img {
+  width: 220px;
+  height: 210px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.card-content1 {
+  flex: 1;
+}
+
+.card-header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-topic1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #08c70e;
+}
+
+.card-price1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #08c70e;;
+}
+
+.card-subject1 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #08c70e;
+}
+
+.card-rating1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #08c70e;
+  font-weight: bold;
+}
+
+.card-stats1 p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 1em;
+  color: #08c70e;
+}
+
+.card-description1 {
+  font-size: 1em;
+  color: #555;
+  color: #08c70e;
+}
+.topicstar{
+  display: flex;
+  justify-content: space-between;
+}
+.topic-tags-session-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.tag-session-card {
+  background-color: #08c70e;
+  border-radius: 15px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.classdur{
+  display: flex;
+}
+
+
+.tutor-info1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 7px 0px;
+}
+
+/* .tutor-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+} */
+
+.tutor-details1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutor-name1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #08c70e;
+  margin:0px;
+}
+
+.tutor-bio1 {
+  font-size: 0.9rem;
+  color: #08c70e;
+  margin:0px;
+}
