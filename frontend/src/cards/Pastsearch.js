@@ -60,6 +60,7 @@ function Pastsearch(props) {
     },
   }}
 >
+  {/*  */}
   <div className="cardforpast">
    <img
       src={image}
