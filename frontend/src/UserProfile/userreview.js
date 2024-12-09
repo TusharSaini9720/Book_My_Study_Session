@@ -18,7 +18,7 @@ const Userreview = (props) => {
     top: 45%;
   `;
 
-  const url = "/api/v1/users/review/";
+  const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/review/";
 
   React.useEffect(() => {
     axios({

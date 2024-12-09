@@ -20,7 +20,7 @@ function ProductDetailPage(props) {
 // console.log("props.token",props.token);
   var optionsforhistory = {
     method: "PATCH",
-    url: "http://127.0.0.1:3000/api/v1/users/addHistory",
+    url: "https://backend-of-book-study-session.onrender.com/api/v1/users/addHistory",
     headers: {
       "Authorization":`Bearer ${props.token}`,
       "Content-Type": "application/json",
@@ -43,14 +43,14 @@ function ProductDetailPage(props) {
       try {
         // Fetch session data
         const sessionResponse = await axios.get(
-          `/api/v1/courses/${session}`
+          `https://backend-of-book-study-session.onrender.com/api/v1/courses/${session}`
         );
        // console.log("sessionResponse",sessionResponse);
         setSession(sessionResponse.data.data.course);
 
         // Fetch tutor data
         const tutorResponse = await axios.get(
-          `/api/v1/tutors/${tutor}`
+          `https://backend-of-book-study-session.onrender.com/api/v1/tutors/${tutor}`
         );
        // console.log("tutorResponse",tutorResponse);
         const tutorData = tutorResponse.data.Tutor;
@@ -61,7 +61,7 @@ function ProductDetailPage(props) {
           const coursesData = await Promise.all(
             tutorData.courses.map(async (id) => {
               const courseResponse = await axios.get(
-                `/api/v1/courses/${id}`
+                `https://backend-of-book-study-session.onrender.com/api/v1/courses/${id}`
               );
               return courseResponse.data.data.course;
             })

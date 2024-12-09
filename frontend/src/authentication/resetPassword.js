@@ -5,7 +5,7 @@ import axios from "axios";
 function ResetPassword(props) {
   const [error, seterror] = React.useState("");
   const navigate = useNavigate ();
-  const url = `/api/v1/users/resetPassword/${useParams().token}`;
+  const url = `https://backend-of-book-study-session.onrender.com/api/v1/users/resetPassword/${useParams().token}`;
   const header = {
     "Content-Type": "application/json",
   };

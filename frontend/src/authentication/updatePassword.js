@@ -5,7 +5,7 @@ import axios from "axios";
 function UpdatePassword(props) {
   const [error, seterror] = React.useState("");
   const navigate = useNavigate();
-  const url = "/api/v1/users/updatePassword/";
+  const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/updatePassword/";
   const header = {
     "Authorization": `Bearer ${props.token}`,
     "Content-Type": "application/json",

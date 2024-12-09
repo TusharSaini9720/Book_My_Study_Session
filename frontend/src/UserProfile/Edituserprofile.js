@@ -9,8 +9,8 @@ function Edituserprofile(props) {
   const [state2, setstate2] = React.useState("Update Password");
   const [state3, setstate3] = React.useState("Upload");
 
-  const urlToUpdateData = "/api/v1/users/updateData";
-  const urlToUpdatePassword = "/api/v1/users/updatePassword";
+  const urlToUpdateData = "https://backend-of-book-study-session.onrender.com/api/v1/users/updateData";
+  const urlToUpdatePassword = "https://backend-of-book-study-session.onrender.com/api/v1/users/updatePassword";
 
   let dataToSend = {};
   let passwordData = {};

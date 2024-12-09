@@ -12,7 +12,7 @@ function PageLayout() {
   };
     
   const [Sessions, setSessions] = useState([]);
-  const url='/api/v1/courses';
+  const url='https://backend-of-book-study-session.onrender.com/api/v1/courses';
 
   useEffect(() => {
     const fetchSessions = async () => {

@@ -27,7 +27,7 @@ function ReviewWindow(props) {
     setstate("Adding...");
     axios({
       method: "POST",
-      url: `/api/v1/hotels/${props.hotel._id}/reviews/`,
+      url: `https://backend-of-book-study-session.onrender.com/api/v1/hotels/${props.hotel._id}/reviews/`,
       data: { rating, review,HotelServiceRating,HotelConditionRating,RoomComfortRating,CleanlinessRating },
     })
       .then((res) => {

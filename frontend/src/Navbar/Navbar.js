@@ -8,7 +8,7 @@ function NNavbar(props) {
   const navigate = useNavigate();
 
   const signout = () => {
-    axios.get("http://127.0.0.1:3000/api/v1/users/logout/");
+    axios.get("https://backend-of-book-study-session.onrender.com/api/v1/users/logout/");
     props.setsignedIn(false);
     props.sethistory([]);
     props.settoken("");

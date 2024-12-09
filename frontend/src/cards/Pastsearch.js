@@ -11,7 +11,7 @@ function Pastsearch(props) {
     e.target.parentElement.parentElement.style.display = "none";
     var optionsforhistory = {
       method: "DELETE",
-      url: "/api/v1/users/deleteHistory",
+      url: "https://backend-of-book-study-session.onrender.com/api/v1/users/deleteHistory",
       headers: {
         "Authorization":`Bearer ${props.token}`,
         "Content-Type": "application/json",

@@ -6,7 +6,7 @@ import BookingCard from "./bookingcard";
 const Userbooking = (props) => {
   const [currentBookings, setcurrentBookings] = React.useState([]);
   const [pastBookings, setpastBookings] = React.useState([]);
-  const url = "/api/v1/users/myBookings/";
+  const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/myBookings/";
   React.useEffect(() => {
     axios({
       method: "GET",

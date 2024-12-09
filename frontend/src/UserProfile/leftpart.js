@@ -4,7 +4,7 @@ import axios from "axios";
 const Leftpart = (props) => {
     const deleteAccount = () => {
         if (window.confirm("Are you sure to delete your account?")) {
-          const url = "/api/v1/users/deleteMe/";
+          const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/deleteMe/";
           const header = {
             "Content-Type": "application/json",
           };

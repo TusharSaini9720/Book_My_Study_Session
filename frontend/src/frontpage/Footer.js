@@ -8,7 +8,7 @@ import './footer.css'
 function Footer() {
 
     const [error, seterror] = React.useState("");
-    const url = "/api/v1/users/sendEmail/";
+    const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/sendEmail/";
     const header = {
       "Content-Type": "application/json",
     };

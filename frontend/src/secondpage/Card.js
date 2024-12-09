@@ -11,7 +11,7 @@ import image from '../data/images/11042383.jpg'
 function Card({ session }) {
    //console.log("card",session);
    const [Tutor,setTutor]=useState({});
-   const Tutorurl=`/api/v1/tutors/${session.tutor}`;
+   const Tutorurl=`https://backend-of-book-study-session.onrender.com/api/v1/tutors/${session.tutor}`;
  // console.log(Tutorurl);
   useEffect(() => {
     const fetchtutor = async () => {

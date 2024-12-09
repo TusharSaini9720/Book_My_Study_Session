@@ -5,7 +5,7 @@ import axios from "axios";
 function Register(props) {
  
   const [error, seterror] = React.useState("");
-  const url = "/api/v1/users/signup/";
+  const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/signup/";
   const header = {
     "Content-Type": "application/json",
   };

@@ -4,7 +4,7 @@ import axios from "axios";
 
 function ForgotPassword() {
   const [error, seterror] = React.useState("");
-  const url = "/api/v1/users/forgotPassword/";
+  const url = "https://backend-of-book-study-session.onrender.com/api/v1/users/forgotPassword/";
   const header = {
     "Content-Type": "application/json",
   };
