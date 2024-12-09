@@ -16,7 +16,7 @@ function Reviews({Session}) {
     { stars: 1, percentage: (Session.oneStar/Session.ratingsQuantity)*100, color: '#f44336' } // Red for low percentage
   ];
 const [reviews,setreviews]=useState([]);
-  const url=`http://127.0.0.1:3000/api/v1/courses/${Session._id}/reviews`;
+  const url=`/api/v1/courses/${Session._id}/reviews`;
 
   useEffect(() => {
     const fetchSessions = async () => {

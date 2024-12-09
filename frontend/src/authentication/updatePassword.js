@@ -5,7 +5,7 @@ import axios from "axios";
 function UpdatePassword(props) {
   const [error, seterror] = React.useState("");
   const navigate = useNavigate();
-  const url = "http://127.0.0.1:3000/api/v1/users/updatePassword/";
+  const url = "/api/v1/users/updatePassword/";
   const header = {
     "Authorization": `Bearer ${props.token}`,
     "Content-Type": "application/json",

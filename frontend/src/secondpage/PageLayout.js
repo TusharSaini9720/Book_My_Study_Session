@@ -12,7 +12,7 @@ function PageLayout() {
   };
     
   const [Sessions, setSessions] = useState([]);
-  const url='http://127.0.0.1:3000/api/v1/courses';
+  const url='/api/v1/courses';
 
   useEffect(() => {
     const fetchSessions = async () => {

@@ -18,7 +18,7 @@ const Userreview = (props) => {
     top: 45%;
   `;
 
-  const url = "http://localhost:3000/api/v1/users/review/";
+  const url = "/api/v1/users/review/";
 
   React.useEffect(() => {
     axios({

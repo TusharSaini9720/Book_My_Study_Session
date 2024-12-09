@@ -5,7 +5,7 @@ import axios from "axios";
 function Signin(props) {
   const [error, seterror] = React.useState("");
   const navigate = useNavigate(); // Updated name to reflect the hook purpose
-  const url = "http://127.0.0.1:3000/api/v1/users/login/";
+  const url = "/api/v1/users/login/";
   const header = {
     "Content-Type": "application/json",
   };

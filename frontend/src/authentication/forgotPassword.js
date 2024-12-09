@@ -4,7 +4,7 @@ import axios from "axios";
 
 function ForgotPassword() {
   const [error, seterror] = React.useState("");
-  const url = "http://127.0.0.1:3000/api/v1/users/forgotPassword/";
+  const url = "/api/v1/users/forgotPassword/";
   const header = {
     "Content-Type": "application/json",
   };

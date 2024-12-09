@@ -5,7 +5,7 @@ import axios from "axios";
 function Register(props) {
  
   const [error, seterror] = React.useState("");
-  const url = "http://127.0.0.1:3000/api/v1/users/signup/";
+  const url = "/api/v1/users/signup/";
   const header = {
     "Content-Type": "application/json",
   };

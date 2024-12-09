@@ -43,14 +43,14 @@ function ProductDetailPage(props) {
       try {
         // Fetch session data
         const sessionResponse = await axios.get(
-          `http://127.0.0.1:3000/api/v1/courses/${session}`
+          `/api/v1/courses/${session}`
         );
        // console.log("sessionResponse",sessionResponse);
         setSession(sessionResponse.data.data.course);
 
         // Fetch tutor data
         const tutorResponse = await axios.get(
-          `http://127.0.0.1:3000/api/v1/tutors/${tutor}`
+          `/api/v1/tutors/${tutor}`
         );
        // console.log("tutorResponse",tutorResponse);
         const tutorData = tutorResponse.data.Tutor;
@@ -61,7 +61,7 @@ function ProductDetailPage(props) {
           const coursesData = await Promise.all(
             tutorData.courses.map(async (id) => {
               const courseResponse = await axios.get(
-                `http://127.0.0.1:3000/api/v1/courses/${id}`
+                `/api/v1/courses/${id}`
               );
               return courseResponse.data.data.course;
             })

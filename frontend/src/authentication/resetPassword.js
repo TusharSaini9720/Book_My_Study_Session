@@ -5,7 +5,7 @@ import axios from "axios";
 function ResetPassword(props) {
   const [error, seterror] = React.useState("");
   const navigate = useNavigate ();
-  const url = `http://127.0.0.1:3000/api/v1/users/resetPassword/${useParams().token}`;
+  const url = `/api/v1/users/resetPassword/${useParams().token}`;
   const header = {
     "Content-Type": "application/json",
   };
