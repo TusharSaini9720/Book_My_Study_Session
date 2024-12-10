@@ -51,11 +51,25 @@ app.use(
     },
   })
 );
-app.use(cors({
-  origin: 'https://book-study-session-7fevcuknt-tushars-projects-0a07fff2.vercel.app', // Specify the allowed origin
-  methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
-  credentials: true // Allow credentials (cookies, authorization headers, etc.)
-}));
+const allowedOrigins = [
+  'https://book-study-session.vercel.app',
+  'https://book-study-session-7fevcuknt-tushars-projects-0a07fff2.vercel.app',
+];
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (allowedOrigins.includes(origin) || !origin) {
+        callback(null, true); // Allow the request
+      } else {
+        callback(new Error('Not allowed by CORS')); // Reject the request
+      }
+    },
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'], // Specify allowed methods
+    credentials: true, // Allow credentials (cookies, authorization headers, etc.)
+  })
+);
+
 
 app.use(helmet.crossOriginOpenerPolicy());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
