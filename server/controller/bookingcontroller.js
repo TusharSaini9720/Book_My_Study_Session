@@ -82,6 +82,7 @@ exports.webhookCheckout = async (req, res, next) => {
   let event;
 
   try {
+    const rawbody=await getRawBody(req);
     event = stripe.webhooks.constructEvent(
       rawbody,
       signature,
