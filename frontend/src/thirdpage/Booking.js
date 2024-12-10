@@ -107,6 +107,7 @@ useEffect(() => {
     startingDate: startDate.toISOString(), // Convert to ISO format
     endingDate: endDate.toISOString(),
     };
+    console.log("url",url);
       const Session = await axios({
         method: "POST",
         url: url,
