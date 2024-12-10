@@ -95,6 +95,7 @@ useEffect(() => {
         console.log("in handle1");
         return
       }
+      console.log("url1",url);
       console.log("in handle");
       setstate("Loading...");
          const currentDate = new Date(); // Current date
