@@ -83,7 +83,7 @@ useEffect(() => {
   );
   
 
-  const url = `http://localhost:3000/api/v1/booking/checkout-session/${session._id}`;
+  const url = `https://backend-of-book-study-session.onrender.com/api/v1/booking/checkout-session/${session._id}`;
   const handleBookNow = async() => {
     try {
       if (!signedIn) {
