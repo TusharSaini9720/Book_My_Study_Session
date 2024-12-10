@@ -4,7 +4,7 @@ import FilterSection from './FilterSection';
 import CardSection from './CardSection';
 import axios from 'axios';
 
-function PageLayout() {
+function PageLayout(props) {
   const [showFilters, setShowFilters] = useState(true);
 
   const toggleFilters = () => {
@@ -13,19 +13,45 @@ function PageLayout() {
     
   const [Sessions, setSessions] = useState([]);
   const url='https://backend-of-book-study-session.onrender.com/api/v1/courses';
+  const loginUrl = 'https://backend-of-book-study-session.onrender.com/api/v1/users/login'; // Update this URL as per your backend API
+
+  const testUser = {
+    email: 'testuser@example.com', // Replace with test user's email
+    password: 'password123',       // Replace with test user's password
+  };
+  const header = {
+    "Content-Type": "application/json",
+  };
+
+  useEffect(() => {
+    const autoSignIn = async () => {
+      try {
+        const res = await axios.post({ url: loginUrl, data: testUser, headers: header });
+        localStorage.setItem("token", res.data.token);
+        localStorage.setItem("user", JSON.stringify(res.data.data.user));
+        localStorage.setItem("history", JSON.stringify(res.data.data.user.history));
+
+        
+        props.sethistory(res.data.data.user.history);
+        props.settoken(res.data.token);
+        props.setsignedIn(true);
+        props.setuser(res.data.data.user);
+        console.log('Auto sign-in successful:');
+      } catch (error) {
+        console.error('Error during auto sign-in:', error);
+      }
+    };
+
+    if (!props.signedIn) {
+      autoSignIn();
+    }
+  }, [loginUrl, props]);
 
   useEffect(() => {
     const fetchSessions = async () => {
       try {
-        const response = await axios.get(url, {
-          // params: {
-          //   query: searchQuery,
-          //   filters: filters,
-          //   sortBy: sortBy,
-          // },
-        });
+        const response = await axios.get(url);
         const data = response.data;
-        // console.log("data",data);
         setSessions(data.data.courses);
       } catch (error) {
         console.error('Error fetching sessions:', error);

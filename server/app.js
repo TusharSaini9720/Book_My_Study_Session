@@ -41,7 +41,7 @@ app.use(hpp());
 //to get data of requests body and limiting it to maximum 10kb
 // app.use(cors());
 //app.use(cors({credentials: true,  origin: 'https://hotel-booking-sp0k.onrender.com'}));
-// app.use(cors({ origin: "*" }));
+ app.use(cors({ origin: "*" }));
 app.use(
   helmet.contentSecurityPolicy({
     useDefaults: true,
@@ -51,11 +51,11 @@ app.use(
     },
   })
 );
-app.use(cors({
-  origin: 'https://book-study-session.vercel.app', // Specify the allowed origin
-  methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
-  credentials: true // Allow credentials (cookies, authorization headers, etc.)
-}));
+// app.use(cors({
+//   origin: 'https://book-study-session.vercel.app', // Specify the allowed origin
+//   methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
+//   credentials: true // Allow credentials (cookies, authorization headers, etc.)
+// }));
 
 app.use(helmet.crossOriginOpenerPolicy());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));

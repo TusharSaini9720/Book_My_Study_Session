@@ -168,7 +168,13 @@ function App() {
             path="/search"
             element={
               <>
-                <PageLayout />
+                <PageLayout 
+                signedIn={signedIn}  
+                setsignedIn={setsignedIn}
+                sethistory={sethistory}
+                settoken={settoken}
+                setuser={setuser}
+                />
                 <Footer />
               </>
             }
