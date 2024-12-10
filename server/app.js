@@ -52,7 +52,7 @@ app.use(
   })
 );
 app.use(cors({
-  origin: 'https://book-study-session.vercel.app', // Specify the allowed origin
+  origin: 'https://book-study-session-7fevcuknt-tushars-projects-0a07fff2.vercel.app', // Specify the allowed origin
   methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'], // Specify allowed methods
   credentials: true // Allow credentials (cookies, authorization headers, etc.)
 }));
