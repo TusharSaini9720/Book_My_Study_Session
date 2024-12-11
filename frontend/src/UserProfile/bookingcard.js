@@ -40,7 +40,7 @@ const Bookingcard = (props) => {
             </div>
           ))}
         </div>
-          <span>Total Price: ${props.booking.price}</span>
+          <span>Total Price: Rs{props.booking.price}</span>
           {/* <button
             onClick={() => {
               settoggle(true);
