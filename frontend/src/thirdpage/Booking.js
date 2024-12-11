@@ -4,7 +4,7 @@ import "./Booking.css";
 import axios from 'axios';
 import { loadStripe } from "@stripe/stripe-js";
 
-const Modal = ({ isOpen, onClose, availableHours, session ,token,signedIn}) => {
+const Modal = ({ isOpen, onClose, availableHours,tutor, session ,token,signedIn}) => {
   const [selectedSlots, setSelectedSlots] = useState([]);
   const [remainingDuration, setRemainingDuration] = useState(session.duration);
   const [days, setDays] = useState(0);
@@ -102,13 +102,14 @@ useEffect(() => {
     const startDate = new Date(currentDate); // Start date is the current date
     const endDate = new Date(currentDate); // Clone current date for endDate calculation
     endDate.setDate(currentDate.getDate() + days);
-    console.log("date",startDate);
-    console.log("enddate",endDate);
+    // console.log("date",startDate);
+    // console.log("enddate",endDate);
     const bookingDetails = {
     timeSlot: selectedSlots, // Ensure this matches schema structure
     price: session.price, // Add session price
-    startingDate: startDate.toISOString(), // Convert to ISO format
-    endingDate: endDate.toISOString(),
+    startingDate: startDate, // Convert to ISO format
+    endingDate: endDate,
+    tutor:tutor,
     };
     console.log("url",url);
       const Session = await axios({

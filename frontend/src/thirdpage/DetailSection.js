@@ -72,6 +72,7 @@ function DetailSection({ Session, Tutor ,token,signedIn}) {
   onClose={handleCloseModal} 
   session={Session} 
   availableHours={Tutor.availableHours} 
+  tutor={Tutor._id}
   token={token} 
   signedIn={signedIn} 
 />

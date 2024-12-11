@@ -24,7 +24,7 @@ exports.getcheckoutSession = async (req, res) => {
         startingDate: req.body.startdate,
         endingDate: req.body.enddate,
         timeSlot: JSON.stringify(req.body.timeSlot), // Save time slots as JSON string
-        tutor: course.tutor, // Pass tutor ID // Pass number of days
+        tutor: req.body.tutor, // Pass tutor ID // Pass number of days
       },
       line_items: [{
         price_data: {
