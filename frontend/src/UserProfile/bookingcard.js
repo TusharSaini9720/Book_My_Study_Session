@@ -29,6 +29,22 @@ const Bookingcard = (props) => {
             Last Date:{" "}
             {new Date(props.booking.endingDate).toLocaleDateString()}
           </span>
+          <span>{props.tutor.name}</span>
+          <div className="slots-container">
+          {props.timeSlot.map((slot, index) => (
+            <div
+              key={index}
+              className={`slot ${
+                selectedSlots.some((s) => s.startTime === slot.startTime)
+                  ? "selected"
+                  : ""
+              }`}
+              onClick={() => handleSlotToggle(slot)}
+            >
+              {slot.startTime} - {slot.endTime}
+            </div>
+          ))}
+        </div>
           <span>Total Price: ${props.booking.price}</span>
           {/* <button
             onClick={() => {
