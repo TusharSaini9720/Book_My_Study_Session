@@ -62,7 +62,13 @@ const createBookingCheckout = async (session) => {
   const timeSlot = JSON.parse(session.metadata.timeSlot); // Parse timeSlot JSON
   const tutor = session.metadata.tutor; // Tutor ID
   // const noofdays = session.metadata.noofdays; // Number of days
-
+  console.log("data ",course);
+  console.log("data ",user);
+  console.log("data ",price);
+  console.log("data ",startingDate);
+  console.log("data ",endingDate);
+  console.log("data ",timeSlot);
+  console.log("data ",tutor);
   await Booking.create({
     course,
     user,
