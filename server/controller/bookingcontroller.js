@@ -21,8 +21,8 @@ exports.getcheckoutSession = async (req, res) => {
       customer_email: req.user.email,
       client_reference_id: req.params.courseid,
       metadata: {
-        startingDate: req.body.startdate,
-        endingDate: req.body.enddate,
+        startingDate: req.body.startingDate,
+        endingDate: req.body.endingDate,
         timeSlot: JSON.stringify(req.body.timeSlot), // Save time slots as JSON string
         tutor: req.body.tutor, // Pass tutor ID // Pass number of days
       },
