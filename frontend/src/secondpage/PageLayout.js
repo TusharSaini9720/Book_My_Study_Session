@@ -16,8 +16,8 @@ function PageLayout(props) {
   const loginUrl = 'https://backend-of-book-study-session.onrender.com/api/v1/users/login'; // Update this URL as per your backend API
 
   const testUser = {
-    email: 'testuser@example.com', // Replace with test user's email
-    password: 'password123',       // Replace with test user's password
+    email: 'test@gmail.io', // Replace with test user's email
+    password: 'test1234',       // Replace with test user's password
   };
   const header = {
     "Content-Type": "application/json",

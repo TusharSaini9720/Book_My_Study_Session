@@ -146,7 +146,6 @@ exports.getMyBookings = async (req, res, next) => {
     const currentDate = new Date();
   const currentBookings = await Booking.find({
     user: req.user.id,
-    startingDate: { $gt: currentDate },
     endingDate: { $gt: currentDate },
   }).populate({ path: "course", select: "name image _id" });
   
