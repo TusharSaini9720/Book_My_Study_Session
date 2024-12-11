@@ -102,6 +102,8 @@ useEffect(() => {
     const startDate = new Date(currentDate); // Start date is the current date
     const endDate = new Date(currentDate); // Clone current date for endDate calculation
     endDate.setDate(currentDate.getDate() + days);
+    console.log("date",startDate);
+    console.log("enddate",endDate);
     const bookingDetails = {
     timeSlot: selectedSlots, // Ensure this matches schema structure
     price: session.price, // Add session price
