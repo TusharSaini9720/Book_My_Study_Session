@@ -18,7 +18,7 @@ const HeaderSection = () => {
     >
       <div className="header-section" style={{ textAlign: 'center', backgroundColor: 'rgba(255, 255, 255, 0.8)', padding: '2rem', borderRadius: '15px' }}>
         <div className="header-content">
-          <h2 style={{ marginBottom: '1rem' }}>Finds the Best Tutors for Your Needs</h2>
+          <h2 style={{ marginBottom: '1rem' }}>Find the Best Tutors for Your Needs</h2>
           <div
             className="search-bar"
             style={{
