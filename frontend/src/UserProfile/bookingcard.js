@@ -34,12 +34,7 @@ const Bookingcard = (props) => {
           {props.timeSlot.map((slot, index) => (
             <div
               key={index}
-              className={`slot ${
-                selectedSlots.some((s) => s.startTime === slot.startTime)
-                  ? "selected"
-                  : ""
-              }`}
-              onClick={() => handleSlotToggle(slot)}
+              className="slot selected"
             >
               {slot.startTime} - {slot.endTime}
             </div>
