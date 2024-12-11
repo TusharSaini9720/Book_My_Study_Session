@@ -79,7 +79,7 @@ app.use(helmet.hidePoweredBy());
 
 app.post(
   "/webhooks",
-  bodyParser.raw({ type: "application/json" }),
+  express.raw({ type: "application/json" }),
   bookingcontroller.webhookCheckout
 );
 //to read cookie from request
