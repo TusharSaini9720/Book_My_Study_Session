@@ -13,8 +13,8 @@ const Userbooking = (props) => {
       url: url,
     })
       .then((res) => {
-        setcurrentBookings(res.data.data.CurrentBookings);
-        setpastBookings(res.data.data.PastBookings);
+        setcurrentBookings(res.data.CurrentBookings);
+        setpastBookings(res.data.PastBookings);
       })
       .catch((err) => {
         //show error page
