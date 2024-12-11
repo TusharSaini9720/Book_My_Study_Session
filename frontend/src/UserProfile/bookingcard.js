@@ -29,7 +29,7 @@ const Bookingcard = (props) => {
             Last Date:{" "}
             {new Date(props.booking.endingDate).toLocaleDateString()}
           </span>
-          <span>{props.tutor.name}</span>
+          <span>{props.booking.tutor.name}</span>
           <div className="slots-container">
           {props.timeSlot.map((slot, index) => (
             <div
