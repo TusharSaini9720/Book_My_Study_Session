@@ -11,6 +11,9 @@ const Userbooking = (props) => {
     axios({
       method: "GET",
       url: url,
+      headers: {
+        Authorization: `Bearer ${props.token}`, // Replace with valid token
+      }
     })
       .then((res) => {
         setcurrentBookings(res.data.CurrentBookings);

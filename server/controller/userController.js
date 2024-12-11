@@ -147,12 +147,12 @@ exports.getMyBookings = async (req, res, next) => {
   const currentBookings = await Booking.find({
     user: req.user.id,
     endingDate: { $gt: currentDate },
-  }).populate({ path: "course", select: "name image _id" });
+  }).populate({ path: "course", select: "name image _id" }).populate({ path: "tutor", select: "name" });
   
   const pastBookings = await Booking.find({
     user: req.user.id,
     endingDate: { $lt: currentDate },
-  }).populate({ path: "course", select: "name image _id" });
+  }).populate({ path: "course", select: "name image _id" }).populate({ path: "tutor", select: "name" });
 
   res.status(200).json({
     status: "success",
