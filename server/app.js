@@ -52,9 +52,6 @@ app.use(
   })
 );
 const allowedOrigins = [
-  'https://book-study-session.vercel.app',
-  'https://book-study-session-7fevcuknt-tushars-projects-0a07fff2.vercel.app',
-  "https://book-study-session-git-master-tushars-projects-0a07fff2.vercel.app",
   "http://localhost:3000/"
 ];
 //
