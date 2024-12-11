@@ -2,7 +2,7 @@ const Course = require('../Models/courseModel');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const User = require('../Models/userModel');
 const Booking = require('../Models/bookingModel');
-const getRawBody=require('raw-body');
+
 // Create checkout session for booking
 exports.getcheckoutSession = async (req, res) => {
   try {
@@ -80,18 +80,21 @@ exports.webhookCheckout = async (req, res, next) => {
   console.log("webhookCheckout");
   const signature = req.headers["stripe-signature"];
   let event;
-
+console.log("signature",signature);
   try {
-    const rawbody=await getRawBody(req);
+    console.log("req",req.body);
+    console.log("process.env.STRIPE_WEBHOOK_SECRET",process.env.STRIPE_WEBHOOK_SECRET);
+   // const rawbody=await getRawBody(req);
     event = stripe.webhooks.constructEvent(
-      rawbody,
+      req.body,
       signature,
       process.env.STRIPE_WEBHOOK_SECRET
     );
   } catch (err) {
+    console.log("err",err);
     return res.status(400).send(`Webhook Error: ${err.message}`);
   }
-console.log("event.type ");
+console.log("event.type ",event.type);
   if (event.type === "checkout.session.completed") {
     createBookingCheckout(event.data.object);
   }
