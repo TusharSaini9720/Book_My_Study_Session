@@ -16,6 +16,7 @@ const Userbooking = (props) => {
       }
     })
       .then((res) => {
+        console.log("res",res);
         setcurrentBookings(res.data.data.CurrentBookings);
         setpastBookings(res.data.data.PastBookings);
       })
