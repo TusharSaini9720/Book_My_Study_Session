@@ -31,7 +31,7 @@ const Bookingcard = (props) => {
           </span>
           <span>{props.booking.tutor.name}</span>
           <div className="slots-container">
-          {props.timeSlot.map((slot, index) => (
+          {props.booking.timeSlot.map((slot, index) => (
             <div
               key={index}
               className="slot selected"
