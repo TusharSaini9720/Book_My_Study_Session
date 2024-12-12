@@ -14,7 +14,7 @@ function Smallcard({Session}) {
         </div>
         <div className="duration">
           <AiOutlineClockCircle />
-          <span>{Session.duration} days</span>
+          <span>{Session.duration} hours</span>
         </div>
         <div className="class">
         <FaUserGraduate />
